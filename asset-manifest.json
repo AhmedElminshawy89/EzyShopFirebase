@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EzyShopFirebase/static/css/main.950e894c.css",
-    "main.js": "/EzyShopFirebase/static/js/main.ee25562b.js",
+    "main.js": "/EzyShopFirebase/static/js/main.1ba10a3d.js",
     "static/media/single-sofa-01.jpg": "/EzyShopFirebase/static/media/single-sofa-01.db24b9feed7582c4e98d.jpg",
     "static/media/arm-chair-03.jpg": "/EzyShopFirebase/static/media/arm-chair-03.3249f382638c86196acd.jpg",
     "static/media/single-sofa-03.jpg": "/EzyShopFirebase/static/media/single-sofa-03.0d976c067034347df78d.jpg",
@@ -31,10 +31,10 @@
     "static/media/wireless-01.png": "/EzyShopFirebase/static/media/wireless-01.1a76d777727c50ca0294.png",
     "index.html": "/EzyShopFirebase/index.html",
     "main.950e894c.css.map": "/EzyShopFirebase/static/css/main.950e894c.css.map",
-    "main.ee25562b.js.map": "/EzyShopFirebase/static/js/main.ee25562b.js.map"
+    "main.1ba10a3d.js.map": "/EzyShopFirebase/static/js/main.1ba10a3d.js.map"
   },
   "entrypoints": [
     "static/css/main.950e894c.css",
-    "static/js/main.ee25562b.js"
+    "static/js/main.1ba10a3d.js"
   ]
 }
