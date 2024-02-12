@@ -1,0 +1,66 @@
+.filter-widget select{
+    background-color: var(--primary-color);
+    color: var(--card-bg-wh);
+    padding: 8px 20px;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+.filter-widget option{
+    font-size: 0.9rem;
+}
+
+.search-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+.search-box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+}
+.search-box label{
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+@media only screen and (max-width:992px){
+    .filter-widget{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:768px){
+    .filter-widget{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .filter-widget select{
+        padding: 7px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+.box label{
+    font-size: 20px;
+    cursor: pointer;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 3px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #eee;
+}
+.activeView{
+    background-color: var(--primary-color) !important;
+    color: var(--card-bg-wh) !important;
+}

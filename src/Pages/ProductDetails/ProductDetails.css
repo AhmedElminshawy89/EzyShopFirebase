@@ -1,0 +1,117 @@
+.btn{
+    position: relative;
+    background-color: var(--primary-color);
+    color: var(--card-bg-wh);
+    font-size: 18px;
+    font-weight: 600;
+    transition: .5s;
+    margin-top: 40px;
+    padding: 10px 40px;
+}
+
+.btn::before,
+.btn::after{
+    position: absolute;
+    content: "";
+    background: var(--hero-bg);
+    width: 30px;
+    height: 30px;
+    opacity: .5;
+    transition: .5s;
+    z-index: -1;
+}
+
+.btn::before{
+    left: 0;
+    top: 0;
+    border-bottom-right-radius: 100%;
+}
+.btn::after{
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 100%;
+}
+.btn:hover::before,
+.btn:hover::after{
+    width: 50%;
+    border-radius: 0;
+    height: 100%;
+    opacity: 1;
+}
+.btn:hover{
+    transition-delay: .2s;
+    background-color: var(--hero-bg);
+    color: var(--primary-color);
+    z-index: 5065006;
+}
+
+.product-details{
+    margin-top: 50px;
+}
+.product-details h2{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.product-details span svg{
+    color: var(--coral);
+}
+.product-details .price{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+
+.tab-wrapper{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1rem;
+}
+.tab-wrapper h6{
+    cursor: pointer;
+}
+.active-tab{
+    font-weight: 600;
+}
+
+
+.review-wrapper ul li span{
+    color: var(--coral);
+    font-weight: 600;
+}
+.review-wrapper ul li p{
+    margin:10px 0px;
+
+}
+
+.review-form{
+    width: 70%;
+    margin:50px auto;
+}
+.review-form h4{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.review-form .form-group input,
+.review-form .form-group textarea{
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    padding: 8px 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+textarea{
+    resize: none;
+}
+.form-group input:focus,
+.form-group textarea:focus{
+    outline: none;
+}
+
+.form-group span{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    color: var(--coral);
+    font-weight: 600;
+}

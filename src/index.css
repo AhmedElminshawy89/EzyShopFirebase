@@ -1,0 +1,59 @@
+
+*{
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+
+.comon-section{
+    background: linear-gradient(rgba(0,0,0,0.562),rgba(0,0,0,0.562)),url('./assests/images/common-section-bg.webp') no-repeat center center;
+    background-size: cover;
+    height: 350px;
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+
+}
+.comon-section h1{
+    color: #fff;
+    font-weight: 600;
+}
+
+.pad{
+    padding: 100px 0px;
+}
+
+.form-add{
+    width: 100%;
+}
+
+.lbl{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+      background: var(--hero-bg);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+      background: var(--primary-color);
+      border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color);
+  }

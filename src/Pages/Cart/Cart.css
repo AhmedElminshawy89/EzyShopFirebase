@@ -1,0 +1,14 @@
+table tr td img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+table tr td svg{
+    cursor: pointer;
+}
+td{
+    color: var(--primary-color);
+}
+.continue{
+    font-size: 16px !important;
+}

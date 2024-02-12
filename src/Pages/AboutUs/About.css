@@ -1,0 +1,230 @@
+
+.about .containerr{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+.about .containerr .info{
+    font-size: 22px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    max-width: 900px;
+    margin-left: 25px;
+}
+.about .containerr .images-box img{
+    width: 100%;
+    max-width: 350px;
+}
+
+
+
+
+   .gallery {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.gallery .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+.gallery .container .box {
+    padding: 15px;
+    background-color: var(--primary-color);
+}
+
+.gallery .container .box .image {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery .container .box .image::before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255 255 255 / 40%);
+    height: 0%;
+    width: 0%;
+    opacity: 0;
+    z-index: 2;
+}
+
+.gallery .container .box .image:hover::before {
+    animation: flashing var(--main-transition);
+}
+
+.gallery .container .box .image img {
+    max-width: 100%;
+    transition: var(--main-transition);
+}
+
+.gallery .container .image:hover img {
+    transform: rotate(5deg) scale(1.1);
+}
+
+
+
+.features {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    background-color: #fff;
+}
+
+.features .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.features .container .box {
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+.features .container .img-holder {
+    position: relative;
+    overflow: hidden;
+}
+
+.features .container .img-holder::before {
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+
+.features .container .box .img-holder::after {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-style: solid;
+    border-width: 0px 0px 170px 500px;
+    border-color: transparent transparent #fff transparent;
+    transition: var(--main-transition);
+}
+
+.features .container .box:hover .img-holder::after {
+    border-width: 170px 500px 170px 0px;
+}
+
+.features .container .img-holder img {
+    max-width: 100%;
+}
+
+.features .container .box h2 {
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    margin: auto;
+    width: fit-content;
+}
+
+.features .container .box h2::before {
+    content: " ";
+    position: absolute;
+    bottom: -20px;
+    left: 15px;
+    width: calc(100% - 30px);
+    height: 5px;
+    background-color: red;
+}
+
+.features .container .box p {
+    padding: 25px;
+    line-height: 2;
+    font-size: 20px;
+    color: #777;
+    margin: 0 30px;
+}
+
+.features .container .box a {
+    display: block;
+    border: 2px solid red;
+    width: fit-content;
+    padding: 10px 30px;
+    margin: 0 auto 30px;
+    font-size: 22px;
+    color: red;
+    border-radius: 6px;
+}
+
+.features .container .quality .img-holder::before {
+    background-color: rgb(244 64 54 / 60%);
+}
+
+.features .container .quality h2::before {
+    color: #f44036;
+}
+
+.features .container .quality a {
+    color: #f44036;
+    border-color: #f44036;
+    background: linear-gradient(to right, #f44036 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+.features .container .box:hover a {
+    background-position: left bottom;
+    color: white;
+    transition: var(--main-transition);
+}
+
+.features .container .time .img-holder::before {
+    background-color: rgb(0 150 136 / 60%);
+}
+
+.features .container .time h2::before {
+    background-color: #009688;
+}
+
+.features .container .time a {
+    color: #009688;
+    border-color: #009688;
+}
+
+.features .container .time a {
+    color: #009688;
+    border-color: #009688;
+    background: linear-gradient(to right, #009688 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+.features .container .passion .img-holder::before {
+    background-color: rgb(3 169 244 / 60%);
+}
+
+.features .container .passion h2::before {
+    background-color: #03a9f4;
+}
+
+.features .container .passion a {
+    color: #03a9f4;
+    border-color: #03a9f4;
+}
+
+.features .container .passion a {
+    color: #03a9f4;
+    border-color: #03a9f4;
+    background: linear-gradient(to right, #03a9f4 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+

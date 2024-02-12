@@ -1,0 +1,40 @@
+export const Links=[
+    {
+            path:'home',
+            link:'Home'
+    },
+    {
+        path:'shop',
+        link:'Shop'
+    }, 
+    {
+        path:'Aboutus',
+        link:'About Us'
+    },
+    {
+        path:'Contact',
+        link:'Contact'
+    }
+]
+export const AdminLinks=[
+    {
+        path:'Dashboard',
+        link:'/dashboard'
+    },
+    {
+        path:'AddProduct',
+        link:'/dashboard/AddProduct'
+    },
+    {
+        path:'AllProduct',
+        link:'/dashboard/AllProduct'
+    },
+    {
+        path:'Orders',
+        link:'/dashboard/orders'
+    },
+    {
+        path:'Users',
+        link:'/dashboard/users'
+    }
+]
