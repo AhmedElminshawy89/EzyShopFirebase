@@ -75,9 +75,6 @@ export default function Header() {
                         )
                       })
                     }
-                    <li className='nav-item'>
-                      <a href='#sec' className={(navclass)=>navclass.isActive?"NavActive":''}>Sec</a>
-                    </li>
                   </ul>
                 </div>
                 <div className='nav-icons'>
