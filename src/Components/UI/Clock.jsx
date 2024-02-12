@@ -8,7 +8,7 @@ export default function () {
     const [Seconds,setSeconds]=useState()
 
     const countDown =()=>{
-        const destination = new Date('oct 12 2023').getTime();
+        const destination = new Date('oct 12 2024').getTime();
 
         let interval = setInterval(() => {
 
